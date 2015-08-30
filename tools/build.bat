@@ -10,9 +10,9 @@
 :: ===== Settings =====
 :: Set your paths here accordingly (no quotes please)
 set PROJ_NAME=FFArms
-set SRC_DIR=h:\works\KillingFloor\FFArms\sources\FFArms
-set GAME_DIR=c:\Program Files (x86)\Steam\SteamApps\common\KillingFloor
-set BUILD_DIR=h:\works\KillingFloor\FFArms-builds
+set SRC_DIR=\your-github-project-path\sources\FFArms
+set GAME_DIR=\your-steam-path\SteamApps\common\KillingFloor
+set BUILD_DIR=\some-path\FFArms-builds
 
 :: ===== Script =====
 
