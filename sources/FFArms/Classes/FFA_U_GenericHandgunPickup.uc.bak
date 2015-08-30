@@ -1,0 +1,57 @@
+// class for inheriting generic handgun behavior to avoid the copy-paste so common in KF code
+class FFA_U_GenericHandgunPickup extends FFA_U_GenericWeaponPickup
+	abstract;
+
+var class<KFWeapon> DualInventoryType; // dual class
+var bool bHasDualMode; // can be carried in dual?
+
+function Inventory SpawnCopy( pawn Other ) {
+    local Inventory Inv;
+	local KFWeapon InventoryHandgun;
+
+	if(bHasDualMode){
+		// look through inventory to see if Other has a single handgun of this type
+		For( Inv=Other.Inventory; Inv!=None; Inv=Inv.Inventory ) {
+			InventoryHandgun = KFWeapon(Inv);
+			if( InventoryHandgun != None && (InventoryHandgun.class == default.InventoryType) ){
+				Inventory.Destroy();	// remove existing single handgun
+				InventoryType = DualInventoryType;	// prep for spawning duals
+				SellValue = 2 * min(SellValue, InventoryHandgun.SellValue); // set sell value for the duals  
+				AmmoAmount[0]+= InventoryHandgun.AmmoAmount(0);
+				MagAmmoRemaining+= InventoryHandgun.MagAmmoRemaining;
+				// InventoryHandgun.Destroyed();
+				InventoryHandgun.Destroy();
+				return Super.SpawnCopy(Other);
+			}
+		}
+	}
+	// does not have dual mode or Other does not have the single version because that return was not used
+	InventoryType = default.InventoryType;
+	return Super.SpawnCopy(Other);
+}
+
+function bool CheckCanCarry(KFHumanPawn Human) {
+    local Inventory CurInv;
+    local bool bHasDual;
+	
+	bHasDual = false;
+	// check if Human has this pickup's dualinventory type
+    for ( CurInv = Human.Inventory; CurInv != none; CurInv = CurInv.Inventory ) {
+		bHasDual = bHasDual || CurInv.class == default.DualInventoryType;
+    }
+
+	// if Human already has duals or can't carry the difference of weight from single to dual handgun
+    if ( bHasDual || !Human.CanCarry(default.DualInventoryType.default.Weight - class<KFWeapon>(default.InventoryType).default.Weight) ) {
+		if ( (LastCantCarryTime < Level.TimeSeconds) && (PlayerController(Human.Controller) != none) ) {
+			LastCantCarryTime = Level.TimeSeconds + 0.5;
+			PlayerController(Human.Controller).ReceiveLocalizedMessage(Class'KFMainMessages', 2);
+		}
+        return false;
+    } else {
+	    return true;
+	}
+}
+
+defaultproperties
+{
+}

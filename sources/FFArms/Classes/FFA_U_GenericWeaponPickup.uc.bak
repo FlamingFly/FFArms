@@ -1,0 +1,9 @@
+class FFA_U_GenericWeaponPickup extends KFWeaponPickup
+	abstract;
+
+function ShowCantCarryMsg(){
+	if ( (LastCantCarryTime < Level.TimeSeconds) && (PlayerController(Human.Controller) != none) ) {
+		LastCantCarryTime = Level.TimeSeconds + 0.5;
+		PlayerController(Human.Controller).ReceiveLocalizedMessage(Class'KFMainMessages', 2);
+	}
+}

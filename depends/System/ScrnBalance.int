@@ -1,0 +1,893 @@
+[Public]
+Object=(Class=class,MetaClass=Xinterface.GUIUserKeyBinding,Name=ScrnBalance.ScrnKeyBinding)
+
+[Ach]
+GroupInfo=((Caption="ALL"),(Caption="Maps"),(Caption="Basic Experience"),(Caption="Master Skills"),(Caption="Teamwork"),(Caption="Miscellaneous"))
+ProgressName="Achievements"
+
+[AchMaps]
+ProgressName="Map Achievements"
+
+[AchObjMaps]
+ProgressName="Objective Map Achievements"
+
+[DoomMusicTrigger]
+CombatSong="EGT-Entryway"
+WaveBasedSongs=((CombatSong="EGT-Entryway",CalmSong="EGT-ThisLove"),(CombatSong="EGT-E1M1",CalmSong="EGT-Interlevel"),(CombatSong="EGT-Demon1",CalmSong="EGT-ThisLove"),(CombatSong="EGT-Shawn",CalmSong="EGT-ThisLove"),(CombatSong="EGT-ToxinRefinery",CalmSong="EGT-Interlevel"),(CombatSong="EGT-Entryway",CalmSong="EGT-ThisLove"),(CombatSong="EGT-Demon2",CalmSong="EGT-ThisLove"),(CombatSong="EGT-PhobosLab",CalmSong="EGT-Interlevel"),(CombatSong="EGT-E1M1",CalmSong="EGT-ThisLove"),(CombatSong="EGT-Shawn",CalmSong="EGT-Interlevel"),(CombatSong="EGT-SignOfEvil",CalmSong="EGT-Interlevel"))
+
+[ScrnAA12AutoShotgun]
+Description="An advanced fully automatic shotgun. Delivers less per-bullet damage, but awesome penetration and fire rate make it the best choise to kill everything... while you have ammo remaining"
+ItemName="AA12 SE"
+
+[ScrnAA12Pickup]
+ItemName="AA12 Shotgun SE"
+ItemShortName="AA12 Shotgun SE"
+
+[ScrnAK47AssaultRifle]
+ItemName="AK-47 SE"
+
+[ScrnAK47Pickup]
+ItemName="AK-47 SE"
+ItemShortName="AK-47 SE"
+
+[ScrnAchievementEarnedMsg]
+EarnedString="Achievement Earned"
+InProgressString="Achievement Progress"
+
+[ScrnAchievements]
+GroupInfo=((Caption="ALL"))
+
+[ScrnAxe]
+ItemName="Axe SE"
+
+[ScrnAxePickup]
+ItemName="Axe SE"
+ItemShortName="Axe SE"
+
+[ScrnBalance]
+strBonusLevel="Your effective perk bonus level is [%s]"
+strVersion="v%m.%n"
+strStatus="Your perk level: Visual=%v, Effective=[%b]. Server perk range is [%n..%x]."
+strStatus2="Spawn balance=%s. Weapon balance=%w. Gunslinger=%g. Alt.Burn=%a. MaxZombiesOnce=%m."
+strSrvWarning="You are using dedicated server version of ScrnBalance that shouldn't be installed on local machines! Please Obtain client version from Steam Workshop."
+strSrvWarning2="If you are getting version mismatch erros, delete KillingFloorSystemScrnBalance.u file."
+strBetaOnly="Only avaliable during Beta testing (bBeta=True)"
+strAchEarn="%p earned an achievement: %a"
+strAutoKickOffPerk="You have been auto kicked from the server for playing without a perk. Type RECONNECT in the console to join the server again and choose a perk."
+FriendlyName="Total Game Balance + Gunslinger Perk [ScrN]"
+Description="Balances perk levels, weapons and money. Fixes bugs, issues and exploits. Brings new Gunslinger perk and server-side achievements. Supports workshop weapons."
+
+[ScrnBalanceVoting]
+strCantEndTrade="Can not end trade time at the current moment"
+strTooLate="Too late"
+strGamePaused="Game paused for %s seconds"
+strSecondsLeft="seconds left"
+strGameUnPaused="Game resumed"
+strPauseTraderOnly="Game can be paused only during trader time!"
+viResume="RESUME GAME"
+viEndTrade="END TRADER TIME"
+strZedSpawnsDoubled="ZED spawn rate doubled!"
+strSquadNotFound="Monster squad with a given name not found"
+strCantSpawnSquadNow="Can not spawn monsters at this moment"
+strSquadList="Avaliable Squads:"
+strNotInStoryMode="Not avaliable in Story Mode"
+strCantEndWaveNow="Can't end the wave now"
+strEndWavePenalty="Team charged for premature wave end with $"
+strRCommands="R_* commands can be executed only by Referee (Admin rights + Tourney Mode)"
+HelpInfo=("%gLOCKPERK %y<perk_name> %w Disable perk at the end of the wave","%gUNLOCKPERK %y<perk_name> %w Enable perk at the end of the wave","%gPAUSE %yX %w Pause the game for X seconds","%gEND TRADE %w Immediately end current trader time and start next wave","%gEND WAVE %w Kills last stuck zeds to end the wave","%gBLAME %y<player_name> %b[<reason>] %w Blame player [for the <reason>]","%gSPEC %y<player_name> %b[<reason>] %w Move player to spectators","%gKICK %y<player_name> %b[<reason>] %w Kick player [for the <reason>]","%gBORING %w Doubles ZED spawn rate","%gSPAWN %y<squad_name> %w Spawns zed squad","%gREADY%w|%gUNREADY %w Makes everybody ready/unready to play")
+
+[ScrnBenelliPickup]
+ItemName="Combat Shotgun SE"
+ItemShortName="Combat Shotgun SE"
+
+[ScrnBenelliShotgun]
+Description="A military tactical shotgun with semi automatic fire capability. Holds up to 6 shells. Special shell construction allow pellets to penetrate fat much easier."
+ItemName="Combat Shotgun SE"
+
+[ScrnBlamedMsg]
+Messages=("You're blamed by the team!","As a punishment you have to","look at this for 2 minutes:")
+
+[ScrnBoomStick]
+Description="This is my BOOMstick (c) Ash, Evil Dead - Army of Darkness, 1992.|Has been used through the centuries to hunt down Demons, Aliens and Zombies. Now it's time for the ZEDs.|Can shoot from one or two barrels simultaneousely. Single shell reload is avaliable."
+ItemName="Boomstick"
+
+[ScrnBoomStickPickup]
+ItemName="Hunting Shotgun SE"
+ItemShortName="Boomstick"
+
+[ScrnBullpup]
+ItemName="Bullpup SE"
+
+[ScrnBullpupPickup]
+ItemName="Bullpup SE"
+ItemShortName="Bullpup SE"
+
+[ScrnBuyMenuInvList]
+UpgradeArmorCaption="Upgrade"
+NoWeightCaption="No Free Weight"
+
+[ScrnBuyMenuSaleList]
+LockStrings=(,"DLC","LOCKED","PERK?","SP?","ACH","???")
+
+[ScrnChainsaw]
+Description="This legendary chainsaw is used through the centuries to fight evil forces"
+ItemName="Ash's Chainsaw"
+
+[ScrnChainsawAmmo]
+ItemName="Fuel Canisters"
+
+[ScrnChainsawAmmoPickup]
+PickupMessage="ML of Gasoline"
+
+[ScrnChainsawPickup]
+ItemName="Ash's Chainsaw"
+ItemShortName="Ash's Chainsaw"
+PickupMessage="You got the Ash's Chainsaw."
+
+[ScrnClaymoreSword]
+ItemName="Claymore Sword SE"
+
+[ScrnClaymoreSwordPickup]
+ItemName="Claymore Sword SE"
+ItemShortName="Claymore SE"
+
+[ScrnClientPerkRepLink]
+strLevelTitle="Perk Level %C"
+strLevelText="This item has minimal perk level restriction."
+strUnknownAchTitle="Unknown Achievement"
+strUnknownAchText="Item can't be unlocked in the current game mode"
+strGrpTitle="%C %G Achievements"
+strGrpText="Unlock %C achievements in '%G' group to unlock this item."
+
+[ScrnCombatVestPickup]
+ItemName="Combat Armor"
+ItemShortName="Combat Armor"
+PickupMessage="You got a Combat Armor"
+
+[ScrnCrossbow]
+ItemName="Compound Crossbow SE"
+
+[ScrnCrossbowPickup]
+ItemName="Crossbow SE"
+ItemShortName="Crossbow SE"
+
+[ScrnCrossbuzzsaw]
+ItemName="Buzzsaw Bow SE"
+
+[ScrnCrossbuzzsawPickup]
+ItemName="Buzzsaw Bow SE"
+ItemShortName="Buzzsaw Bow SE"
+
+[ScrnDamTypeCommandoBase]
+DeathString="%k killed %o (Assault Rifle)."
+FemaleSuicide="%o shot herself in the foot."
+MaleSuicide="%o shot himself in the foot."
+
+[ScrnDamTypeDefaultGunslingerBase]
+DeathString="%k killed %o (Pistol)."
+FemaleSuicide="%o shot herself in the foot."
+MaleSuicide="%o shot himself in the foot."
+
+[ScrnDamTypeDefaultSupportBase]
+DeathString="%k killed %o (Shotgun)."
+FemaleSuicide="%o shot herself in the foot."
+MaleSuicide="%o shot himself in the foot."
+
+[ScrnDamTypeHuskGun_Alt]
+DeathString="%k burned down %o with Napalm."
+FemaleSuicide="%o burned her pretty butt up."
+MaleSuicide="%o burned his a** up."
+
+[ScrnDamTypeScythe]
+DeathString="%o was reaped by %k."
+
+[ScrnDamTypeSniperBase]
+DeathString="%k killed %o."
+FemaleSuicide="%o shot herself in the foot."
+MaleSuicide="%o shot himself in the foot."
+
+[ScrnDeagle]
+ItemName="Handcannon SE"
+
+[ScrnDeaglePickup]
+ItemName="Handcannon SE"
+ItemShortName="Handcannon SE"
+
+[ScrnDual44Magnum]
+Description="A pair of 44 Magnum Pistols. Cowboy's best choise to clear Wild West for hordes of zeds!"
+ItemName="Dual 44 Magnums SE"
+
+[ScrnDual44MagnumLaser]
+Description="Yeah! One in each hand! Now with laser attachment."
+ItemName="Laser Dual 44 Magnums"
+
+[ScrnDual44MagnumLaserPickup]
+ItemName="Laser Dual 44 Magnums"
+ItemShortName="Laser Dual 44"
+PickupMessage="You found Dual 44 Magnums with Laser Sight"
+
+[ScrnDual44MagnumPickup]
+ItemName="Dual 44 Magnums SE"
+ItemShortName="Dual 44 SE"
+
+[ScrnDualDeagle]
+ItemName="Dual Handcannons SE"
+
+[ScrnDualDeaglePickup]
+ItemName="Dual Handcannons SE"
+ItemShortName="Dual HC SE"
+
+[ScrnDualFlareRevolver]
+ItemName="Dual Flare revolvers SE"
+
+[ScrnDualFlareRevolverPickup]
+ItemName="Dual Flare Revolvers SE"
+ItemShortName="Dual Flare Rev. SE"
+
+[ScrnDualMK23Laser]
+Description="Yeah! One in each hand! Now with laser attachment."
+ItemName="Laser Dual MK23"
+
+[ScrnDualMK23LaserPickup]
+ItemName="Laser Dual MK23"
+ItemShortName="Laser MK23"
+PickupMessage="You found Dual MK23 with Laser Sight"
+
+[ScrnDualMK23Pickup]
+ItemName="Dual MK23 SE"
+ItemShortName="Dual MK23 SE"
+
+[ScrnDualMK23Pistol]
+ItemName="Dual MK23 SE"
+
+[ScrnDualies]
+ItemName="Dual 9mms SE"
+
+[ScrnDualiesPickup]
+ItemName="Dual 9mms SE"
+ItemShortName="Dual 9mms SE"
+
+[ScrnFNFAL_ACOG_AssaultRifle]
+Description="Classic NATO battle rifle. Can penetrate small targets and has a fixed-burst mode."
+ItemName="FNFAL SE"
+
+[ScrnFNFAL_ACOG_Pickup]
+ItemName="FNFAL ACOG SE"
+ItemShortName="FNFAL SE"
+
+[ScrnFireModeSwitchMessage]
+SwitchMessage[0]="Set to Fully Automatic"
+SwitchMessage[1]="Set to Semi-Automatic"
+SwitchMessage[2]="Set to 2-bullet Burst Mode"
+SwitchMessage[3]="Set to 3-bullet Burst Mode"
+SwitchMessage[4]="Set to Single Mode"
+SwitchMessage[5]="Set to Multi Mode"
+
+[ScrnFlameThrower]
+ItemName="FlameThrower SE"
+
+[ScrnFlameThrowerPickup]
+ItemName="FlameThrower SE"
+ItemShortName="FlameThrower SE"
+
+[ScrnFlareRevolver]
+ItemName="Flare Revolver SE"
+
+[ScrnFlareRevolverPickup]
+ItemName="Flare Revolver SE"
+ItemShortName="Flare Rev. SE"
+
+[ScrnFrag]
+ItemName="Frag Grenade SE"
+
+[ScrnFragPickup]
+ItemName="Grenades SE"
+ItemShortName="Grenades SE"
+
+[ScrnGUIBuyWeaponInfoPanel]
+strSecondsPerShot="s/shot"
+StrReloadsInDPM=", incl. %r reloads"
+strMeters="meters"
+Weight="%i blocks"
+AmmoBar.Hint="Total amount of ammo that can be carried for this weapon"
+AmmoCap.Caption="Total Ammo:"
+AmmoCap.Hint="Total amount of ammo that can be carried for this weapon"
+DPMBar.Hint="Damage per minute, including reloads"
+DPMCap.Caption="per minute:"
+DPMCap.Hint="Damage per minute, including reloads"
+DPSBar.Hint="Damage per second or magazine (if able to shoot whole magazine"
+DPSCap.Caption="per second:"
+DPSCap.Hint="Damage per second"
+DamageBar.Hint="Weapon damage"
+DamageCap.Caption="Damage:"
+DamageCap.Hint="Weapon actual damage, including perk bonus"
+MagBar.Hint="Ammo count in magazine"
+MagCap.Caption="Magazine:"
+MagCap.Hint="Ammo count in magazine"
+Mode0Check.Caption="Primary Fire"
+Mode0Check.Hint="Show primary fire stats"
+Mode1Check.Caption="Secondary Fire"
+Mode1Check.Hint="Show secondary (alternate) fire stats"
+RangeBar.Hint="Weapon range (for melee weapons) or blast radius (for explosives and fire)"
+RangeCap.Caption="Range:"
+RangeCap.Hint="Weapon range (for melee weapons) or blast radius (for explosives and fire)"
+
+[ScrnGameRules]
+msgHardcore="Hardcore level raised to %a (+%i for %r)"
+msgDoom3Monster="Doom3 monsters"
+msgDoomPercent="Doom3 monster count in wave = %p%"
+msgDoom3Boss="Doom Boss"
+strWeaponLocked="%w locked by %o"
+strWeaponLockedOwn="Can not pickup another's weapons while own are locked"
+strPerkedWeaponsOnly="You can pickup perked weapons only"
+strWaveAccuracy="%p scored %a accuracy in this wave!"
+
+[ScrnGameType]
+KFHints=("ScrN Balance: You can reload a single shell into Hunting Shotgun.","ScrN Balance: You can't skip Hunting Shotgun's reload. So use it with caution.","ScrN Balance: Combat Shotgun is made much better. Give it a try.","ScrN Balance: Shotguns, except Combat and Hunting, penetrate fat bodies worse than small enemies.","ScrN Balance: M99 can't stun Scrake with a body-shot. Crossbow has no fire speed bonus as in original game before v1035.","ScrN Balance: M14EBR has different laser sights. Choose the color you like!","ScrN Balance: Hand grenades can be 'cooked'. You can enable this on 'Scrn Balance' settings page in the Main Menu.","ScrN Balance: Husk Gun's secondary fire acts as Napalm Thrower. You should definitely try it out!","ScrN Balance: Gunslinger has bonuses both for single and dual pistols. But real Cowboys use only dualies.","ScrN Balance: Gunslinger becomes a Cowboy while using dual pistols without wearing an armor (except jacket). Cowboy moves, shoots and reloads his pistols much faster. From the other side, he dies faster too..","ScrN Balance: Berserker, while holding non-melee weapons, moves slower than other perks.","ScrN Balance: Chaisaw's secondary fire can stun Scrakes the same way as an Axe.","ScrN Balance: Chainsaw consumes fuel. Raised power makes it a beast... until you need to refill","ScrN Balance: Medic, while holding a syringe, runs same fast as while holding a knife.","ScrN Balance: Medics can heal much faster than other perks. If you aren't a Medic, don't screw up the healing process with your lame injection.","ScrN Balance: FN-FAL has bullet penetration and 2-bullet fixed burst mode.","ScrN Balance: MK23 has no bullet penetration but double size of magazine, comparing to Magnum .44","ScrN Balance: Your experience and perk bonus levels can be different. If they are, you'll see 2 perk icons on your HUD.","ScrN Balance: If you see two perk icons on your HUD, left one shows your experience level, right - actual level of perk bonuses you gain.","ScrN Balance: Flare pistol has an incremental burn DoT (iDoT). The more you shoot the more damage zeds take from burning.","ScrN Balance: Medic nades are for healing only. Zeds are not taking damage neither fear them","ScrN Balance: If you have just joined the game and got blamed - maybe it is just a welcome gift. Don't worry - shit happens.","ScrN Balance: Nailgun can nail enemies to walls... nail them alive! Crucify your ZED!","ScrN Console Command: TOGGLEPLAYERINFO - hides health bars while keeping the rest of the HUD.","ScrN Console Command: MVOTE - access to ScrN Voting. Type MVOTE HELP for more info.","ScrN Console Command: DROPALLWEAPONS - drops all your weapons to the ground. What else did you expected?","ScrN Console Command: TOGGLEWEAPONLOCK - lock/unlocks your weapons on the ground.")
+GameName="ScrN Floor"
+Description="ScrN Edition of Killing Floor game mode (KFGameType)."
+
+[ScrnHUD]
+strFollowing="FOLLOWING:"
+strPendingItems="Waiting for shop items from server: "
+
+[ScrnHorzineVestPickup]
+ItemName="Horzine Armor"
+ItemShortName="Horzine Armor"
+PickupMessage="You gots an Horzine Armor"
+
+[ScrnHumanPawn]
+strNoSpawnCashToss="Can not drop starting cash"
+
+[ScrnHuskGun]
+Description="A fireball cannon ripped from the arm of a dead Husk. Does more damage when charged up. Fully-charged headshot stuns Scrake.|Alternate fire shoots Napalm, burning everything in 12m radius."
+ItemName="Husk Gun / Napalm Launcher"
+
+[ScrnHuskGunPickup]
+ItemName="Husk Gun / Napalm Launcher"
+ItemShortName="Husk Gun SE "
+
+[ScrnInvasionLoginMenu]
+Panels=((Caption="News",Hint="View server news"),(Caption="MOTD",Hint="Message of the Day"),(Caption="Server Info",Hint="Current map rotation and game settings"),(Caption="Communication",Hint="Manage communication with other players"),(Caption="Stats",Hint="View your current stats of this server"),(Caption="Achievements",Hint="ScrN server-side achievements"),(Caption="ScrN Features",Hint="ScrN Balance features, settings and info"))
+TeamSwitchButton.Caption="Switch Team"
+
+[ScrnKSGPickup]
+ItemName="KSG SE"
+ItemShortName="KSG SE"
+
+[ScrnKSGShotgun]
+Description="Kel-tec tactical shotgun. Features a large capacity ammo magazine and selectable tight/wide spread fire modes. Its pellets penetrate weak enemies almost without damage loss, but usually stuck inside big bodies. Has no healing attachment, but Medics like it anyway."
+ItemName="KSG SE"
+
+[ScrnKatana]
+ItemName="Katana SE"
+
+[ScrnKatanaPickup]
+ItemName="Katana SE"
+ItemShortName="Katana  SE"
+
+[ScrnKrissMMedicGun]
+ItemName="Schneidzekk Medic Gun SE"
+
+[ScrnKrissMPickup]
+ItemName="Schneidzekk Medic Gun SE"
+ItemShortName="KrissM SE"
+
+[ScrnLAW]
+Description="Light Anti-tank Weapon. Designed to punch through armored vehicles... but can't kill even a Scrake! Maybe because he doesn't wear armor to punch through ^^"
+ItemName="L.A.W. SE"
+
+[ScrnLAWAmmo]
+ItemName="L.A.W. Rockets"
+
+[ScrnLAWAmmoPickup]
+PickupMessage="L.A.W. Rockets"
+
+[ScrnLAWPickup]
+ItemName="L.A.W. SE"
+ItemShortName="L.A.W. SE"
+
+[ScrnLightVestPickup]
+ItemName="Armored Jacket"
+ItemShortName="Armored Jacket"
+PickupMessage="You gots an Armored Jacket"
+
+[ScrnLobbyFooter]
+UnreadyString="Unready"
+ViewMap.Caption="View Map"
+ViewMap.Hint="Spectate the map while waiting for players to get ready"
+
+[ScrnM14EBRBattleRifle]
+Description="Updated M14 Enhanced Battle Rifle - Semi Auto variant. Equipped with a laser sight. A special lens allows to change laser's color on the fly."
+ItemName="M14EBR SE"
+
+[ScrnM14EBRPickup]
+ItemName="M14EBR SE"
+ItemShortName="M14EBR SE"
+
+[ScrnM203MAmmo]
+ItemName="M203 Healing Grenades"
+
+[ScrnM203MAmmoPickup]
+PickupMessage="M203 Healing Grenades"
+
+[ScrnM32GrenadeLauncher]
+ItemName="M32 Grenade Launcher SE"
+
+[ScrnM32Pickup]
+ItemName="M32 Grenade Launcher SE"
+ItemShortName="M32 Launcher SE"
+
+[ScrnM4203AssaultRifle]
+Description="An assault rifle with an attached grenade launcher. Shoots in 3-bullet fixed-burst mode."
+ItemName="M4 203 SE"
+
+[ScrnM4203MMedicGun]
+SuccessfulHealMessage="You healed %c player(-s) with %ahp"
+Description="An assault rifle with an attached healing grenade launcher. Shoots in 3-bullet fixed-burst mode."
+ItemName="M4-203M Medic Rifle"
+
+[ScrnM4203MPickup]
+ItemName="M4-203M Medic Rifle"
+ItemShortName="M4-203M"
+SecondaryAmmoShortName="M203M Healing nades"
+PickupMessage="You got the M4-203M Medic Rifle"
+
+[ScrnM4203Pickup]
+ItemName="M4 203 SE"
+ItemShortName="M4 203 SE"
+
+[ScrnM4AssaultRifle]
+Description="A compact assault rifle. Damage could be better, but accuracy, fast reload and a lot of ammo makes it a good choise in a battle."
+ItemName="M4 SE"
+
+[ScrnM4Pickup]
+ItemName="M4 SE"
+ItemShortName="M4 SE"
+
+[ScrnM79GrenadeLauncher]
+ItemName="M79 Grenade Launcher SE"
+
+[ScrnM79Inc]
+Description="A classic Vietnam era grenade launcher. Launches incendiary grenades."
+ItemName="M79 Incendiary"
+
+[ScrnM79IncAmmo]
+ItemName="M79 Incendiary Grenades"
+
+[ScrnM79IncAmmoPickup]
+PickupMessage="M79 Incendiary Grenades"
+
+[ScrnM79IncPickup]
+ItemName="M79 Incendiary"
+ItemShortName="M79 Inc"
+PickupMessage="You got the M79 Incendiary Grenade Launcher."
+
+[ScrnM79M]
+SuccessfulHealMessage="You healed %c player(-s) with %ahp"
+Description="A classic Vietnam era grenade launcher. Modified to launch healing grenades."
+ItemName="Medic Grenade Launcher"
+
+[ScrnM79MAmmo]
+ItemName="M79 Healing Grenades"
+
+[ScrnM79MAmmoPickup]
+PickupMessage="M79 Healing Grenades"
+
+[ScrnM79MPickup]
+ItemName="Medic Grenade Launcher"
+ItemShortName="Medic GL"
+PickupMessage="You got the Medic Grenade Launcher."
+
+[ScrnM79Pickup]
+ItemName="M79 Grenade Launcher SE"
+ItemShortName="M79 Launcher SE"
+
+[ScrnM7A3MMedicGun]
+ItemName="M7A3M Medic Gun SE"
+
+[ScrnM7A3MPickup]
+ItemName="M7A3M Medic Gun SE"
+ItemShortName="M7A3M SE"
+
+[ScrnM99Pickup]
+ItemName="M99 AMR SE"
+ItemShortName="M99 SE"
+
+[ScrnM99SniperRifle]
+ItemName="M99AMR 'The NoobGun'"
+
+[ScrnMAC10MP]
+ItemName="MAC10 SE"
+
+[ScrnMAC10Pickup]
+ItemName="MAC-10 SE"
+ItemShortName="MAC-10 SE"
+
+[ScrnMK23Pickup]
+ItemName="MK23 SE"
+ItemShortName="MK23 SE"
+
+[ScrnMK23Pistol]
+Description="Match grade 45 caliber pistol. Good balance between power, ammo count and rate of fire. Damage is near to Magnum's, but has no bullet penetration."
+ItemName="MK23 SE"
+
+[ScrnMP5MMedicGun]
+ItemName="MP5M Medic Gun SE"
+
+[ScrnMP5MPickup]
+ItemName="MP5M Medic Gun SE"
+ItemShortName="MP5M SE"
+
+[ScrnMP7MMedicGun]
+ItemName="MP7M Medic Gun SE"
+
+[ScrnMP7MPickup]
+ItemName="MP7M Medic Gun SE"
+ItemShortName="MP7M SE"
+
+[ScrnMachete]
+ItemName="Machete SE"
+
+[ScrnMachetePickup]
+ItemName="Machete SE"
+ItemShortName="Machete SE"
+
+[ScrnMagnum44Pickup]
+ItemName="44 Magnum SE"
+ItemShortName="44 Magnum SE"
+
+[ScrnMagnum44Pistol]
+ItemName="44 Magnum SE"
+
+[ScrnMapAchievements]
+UniversalDescriptions[0]="Survive on %m in ScrN Balance mode"
+UniversalDescriptions[1]="Survive on %m against Super/Custom specimens and Hardcore Level 5+"
+UniversalDescriptions[2]="Survive on %m against Custom end-game Boss and Hardcore Level 10+"
+UniversalDescriptions[3]="Survive on %m against Doom3 monsters and Hardcore Level 15+"
+MapDifficultyNames[0]="Map"
+MapDifficultyNames[1]="Hard+ Map"
+MapDifficultyNames[2]="Suicidal+ Map"
+MapDifficultyNames[3]="HoE Map"
+GroupInfo=((Caption="ALL"),(Caption="Maps"))
+
+[ScrnMusicTrigger]
+CombatSong="KF_Pathogen"
+WaveBasedSongs=((CombatSong="KF_Hunger",CalmSong="KF_Wading"),(CombatSong="KF_WPrevention",CalmSong="KF_Wading"),(CombatSong="DirgeDefective1",CalmSong="KF_Neurotoxin"),(CombatSong="DirgeDefective2",CalmSong="KF_Vapour"),(CombatSong="DirgeDisunion1",CalmSong="KF_Peripheral"),(CombatSong="DirgeDisunion2",CalmSong="KF_TheEdge"),(CombatSong="KF_Pathogen",CalmSong="KF_Insect"),(CombatSong="DirgeRepulse1",CalmSong="KF_SinSoma"),(CombatSong="DirgeRepulse2",CalmSong="KF_SinSoma"),(CombatSong="KF_Containment",CalmSong="KF_TheStitches"),(CombatSong="KF_Abandon",CalmSong="KF_TheStitches"))
+
+[ScrnNailGun]
+ItemName="Nailgun SE"
+
+[ScrnNailGunPickup]
+ItemName="Nailgun SE"
+ItemShortName="Nailgun SE"
+
+[ScrnObjMapAchievements]
+UniversalDescriptions[0]="Survive on %m in Objective Mode on Normal Difficulty or above"
+UniversalDescriptions[1]="Survive on %m in Objective Mode on Hard Difficulty or above"
+UniversalDescriptions[2]="Survive on %m in Objective Mode on Suicidal Difficulty or above"
+UniversalDescriptions[3]="Survive on %m in Objective Mode on HoE Difficulty"
+
+[ScrnPipeBombExplosive]
+ItemName="PipeBomb SE"
+
+[ScrnPipeBombPickup]
+ItemName="Pipe Bomb SE"
+ItemShortName="Pipe Bomb SE"
+
+[ScrnPistolDamageProgress]
+ProgressName="Pistol Damage"
+
+[ScrnPistolKillProgress]
+ProgressName="Pistol Kills"
+
+[ScrnPlayerController]
+strLocked="Weapon pickups LOCKED"
+strUnlocked="Weapon pickups UNLOCKED"
+strLockDisabled="Weapon lock is disabled by server"
+strAlreadySpectating="Already spectating. Type READY, if you want to join the game."
+strCantShopInEnemyTrader="You can not trade with enemy trader!"
+strNoPerkChanges="Mid-game perk changes disabled"
+strSpecFavoriteAssigned="View target marked as favorite"
+strSpecNoFavorites="No favorite view targets! Press '4' to assign favorite."
+
+[ScrnPlayerMessage]
+SwitchMessage[0]="Fully Charged"
+
+[ScrnPlayerWarningMessage]
+SwitchMessage[0]="Magazine empty! Please reload."
+SwitchMessage[1]="Out of Ammo"
+
+[ScrnSCARMK17AssaultRifle]
+ItemName="SCARMK17 SE"
+
+[ScrnSCARMK17Pickup]
+ItemName="SCARMK17 SE"
+ItemShortName="SCARMK17 SE"
+
+[ScrnSPSniperPickup]
+ItemName="Single Piston Longmusket SE"
+ItemShortName="S.P. Musket SE"
+
+[ScrnSPSniperRifle]
+ItemName="S.P. Musket SE"
+
+[ScrnSPThompsonPickup]
+ItemName="Dr. T's Lead Delivery System SE"
+ItemShortName="Dr. T's L.D.S. SE"
+
+[ScrnSPThompsonSMG]
+ItemName="Dr. T's Lead Delivery System SE"
+
+[ScrnScoreBoard]
+AssHeaderText="Ass."
+KillsAssSeparator=" + "
+strPingMax="N/A"
+TeamScoreString="Team Budget:"
+HealthText="Health"
+PointsText="Do$h"
+TimeText="Time"
+
+[ScrnScythe]
+ItemName="Scythe SE"
+
+[ScrnScythePickup]
+ItemName="Scythe SE"
+ItemShortName="Scythe SE"
+
+[ScrnSeekerSixPickup]
+ItemName="Seeker6 Rocket Launcher SE"
+ItemShortName="Seeker6 SE"
+
+[ScrnSeekerSixRocketLauncher]
+ItemName="SeekerSix Rocket Launcher SE"
+
+[ScrnShotgun]
+ItemName="Shotgun SE"
+
+[ScrnShotgunPickup]
+ItemName="Shotgun SE"
+ItemShortName="Shotgun SE"
+
+[ScrnSingle]
+ItemName="9mm Tactical SE"
+
+[ScrnSinglePickup]
+ItemName="9mm Pistol SE"
+ItemShortName="9mm Pistol SE"
+
+[ScrnStoryGameInfo]
+GameName="ScrN Objective Mode"
+
+[ScrnSyringe]
+ItemName="Med-Syringe SE"
+
+[ScrnSyringePickup]
+ItemName="Med-Syringe SE"
+
+[ScrnTab_Achievements]
+OutOfString="of"
+UnlockedString="unlocked"
+AchievementProgressLabel.Caption="0 of 0 unlocked"
+BGAchievements.Caption="My Achievements"
+GroupCombo.Caption="Group"
+GroupCombo.Hint="Allows to filter achievements in the list"
+OnlyLockedCheckBox.Caption="Show Only Locked"
+OnlyLockedCheckBox.Hint="Shows only locked achievements"
+
+[ScrnTab_BuyMenu]
+strSelectedItemRequirements="Requirements for Unlocking Selected Item"
+strIntoScrnLocked="You have to meet the above requirements for unlocking the selected item. If multiple requirements have the same leading number in square brackets [X], then you need only one of those. Press F3 for item's description."
+InfoText[0]="Welcome to my shop, powered by ScrN Balance!   HOTKEYS:|ENTER/BACKPACE: buy/sell item.|PAGE UP/DOWN: Select previous/next group.|0-9: Quick group selection / buy X clips.|UP/DOWN: select previous/next item in the same group.|LEFT/RIGHT: close/open current group."
+AutoFillString="[F8] Fill All Ammo"
+AutoFill.Caption="[F8] Auto Fill Ammo"
+AutoFill.Hint="First click fills up all weapons except hand grenades and pipebombs. Second click buys pipebombs and grenades."
+Exit.Caption="[ESC] Exit Trader Menu"
+Exit.Hint="Close The Trader Menu"
+Refresh.Caption="[F5] Refresh"
+Refresh.Hint="Reload the Trader Menu, including max value reset of weapon info bars."
+SelectedItemL.Caption="Selected Item Info"
+
+[ScrnTab_Profile]
+strNotATeamChar="Selected character is not avaliable for your team!"
+
+[ScrnTab_UserSettings]
+strDisabledByServer="Disable on the Server side"
+strForcedByServer="Forced by the Server"
+strLock="Lock"
+strUnlock="Unlock"
+strLockWeapons="Lock Weapons"
+strUnlockWeapons="Unlock Weapons"
+strBoundToCook="'%s' key bound to 'Cook' grenade"
+strBoundToThrow="'%s' key bound to Throw grenade"
+strCantFindNade="Can't find a key set for throwing grenades. Please assign it in Settings->Controls."
+strBadReason="Write a good reason for blaming"
+strServerInfoSeparator="   "
+strPerkRange="Perk Bonus Range: "
+strPerkXPLevel="Your Perk Level = "
+strPerkBonusLevel="Bonus Level = "
+strSpawnBalance="Money Balance"
+strWeaponFix="Weapon Balance"
+strAltBurnMech="Alt.Burn"
+strBeta="Beta"
+strHardcore="Hardcore"
+strNoPerkChanges="No Perk Changes"
+AccuracyButton.Caption="Show Accuracy"
+AccuracyButton.Hint="Prints player accuracy to the console"
+AllwaysDrawSpecialIcons.Caption="Player Avatars"
+AllwaysDrawSpecialIcons.Hint="If checked, player avatars always will be drawn. If not, then avatars will be shown only during Trader Time."
+BlameButton.Caption="Blame"
+BlameButton.Hint="Click to start a Blame-vote on selected player for a 'Reason'"
+BoringButton.Caption="Boring"
+BoringButton.Hint="Boosts zed spawn rates, making game faster."
+CookNade.Caption="Enable Grenade 'Cooking'"
+CookNade.Hint="If checked, armed grenade will remain in your hands while key is being held. Nade cooking slows down toss rate!"
+EndTradeButton.Caption="End Trade"
+EndTradeButton.Hint="Skips Trader Time and starts next wave."
+GunSkinButton.Caption="Gun Skin"
+GunSkinButton.Hint="Toggles current weapon skin: normal / gold / camo / neon. Requires appropriate DLC(-s)."
+HLButton.Caption="HL"
+HLButton.Hint="Prints Hardcore Level"
+HUDBG.Caption="HUD & Info"
+KickButton.Caption="Kick"
+KickButton.Hint="Click to start a kick-vote selected player for a 'Reason'."
+ManualReload.Caption="Manual Reload"
+ManualReload.Hint="Check this to disable automatic reloading when firing with an empty gun"
+OldStyleIcons.Caption="Old Style Icons"
+OldStyleIcons.Hint="Toggles style of perk icons for levels 11+"
+PerkProgressButton.Caption="Perk Progress"
+PerkProgressButton.Hint="Prints perk progress and gained xp during this game to the console"
+PlayerBG.Caption="MVote"
+PlayerInfoZoom.Caption="Old HP Bars"
+PlayerInfoZoom.Hint="If checked, player health and armor bars won't be scaled on distance."
+PlayerList.Caption="Player:"
+PlayerList.Hint="Select a player from the list"
+PlayerListButton.Caption="List"
+PlayerListButton.Hint="Writes player list into the console and KillingFloor.log"
+PrioritizeBoomstick.Caption="Boomstick before AA12"
+PrioritizeBoomstick.Hint="If checked, when pressing '4' Boomstick (Hunting Shotgun) will be switched before AA12"
+PrioritizePerkedWeapons.Caption="Perked Weapons First"
+PrioritizePerkedWeapons.Hint="If checked, perked weapons will be switched first in the inventory group"
+PrizeButton.Caption="Get Prize"
+PrizeButton.Hint="Grants xp boost for all ScrN official perks"
+ProfileButton.Caption="Profile..."
+ProfileButton.Hint="Opens player's Steam profile in web browser (minimizes KF)"
+ReasonTextBox.Caption="Reason:"
+ServerInfoLabel.Caption="Server status unavailable"
+ShowAchProgress.Caption="Achievement Progress"
+ShowAchProgress.Hint="If checked, you will always receive notification message on any achievement progress. If not, game will automatically decide when to show a notification."
+ShowDamages.Caption="Show Damages"
+ShowDamages.Hint="If checked, damage you're doing will popup on your screen"
+ShowSpeed.Caption="Show Speed"
+ShowSpeed.Hint="Toggles drawing of your movement speed on the HUD"
+SpecButton.Caption="Spec"
+SpecButton.Hint="Click to start a vote to move selected player to spectators for a 'Reason'."
+StatusButton.Caption="Server Status"
+StatusButton.Hint="Prints ScrN server settings"
+SteamGroupButton.Caption="Group..."
+SteamGroupButton.Hint="Opens up ScrN Balance Fans - Official Steam Group in Web Browser (minimizes KF)."
+TSC_A_Button.Caption="Carrier"
+TSC_A_Button.Hint="Vote selected player to be a Gnome Carrier. If voted, nobody but carrier or captain can pick up the Gnome."
+TSC_C_Button.Caption="Captain"
+TSC_C_Button.Hint="Vote selected player to be a Team Captain"
+TeamInviteButton.Caption="Invite"
+TeamInviteButton.Hint="Invite player to the team (bypasses lock)."
+TeamLockButton.Caption="Lock Team"
+TeamLockButton.Hint="Locks teams, preventing uninvited players to join."
+TeamUnlockButton.Caption="Unlock Team"
+TeamUnlockButton.Hint="Unlocks teams, allowing everybody to join."
+TourneyCheckButton.Caption="Tourney Check"
+TourneyCheckButton.Hint="Executes Tourney Mode check and prints results to the console"
+TourneyLabel.Caption="Congratulations on getting into TSC Tournament Playoffs!"
+VoteNoButton.Caption="Vote NO"
+VoteNoButton.Hint="Decline current vote in progress"
+VoteYesButton.Caption="Vote YES"
+VoteYesButton.Hint="Accept current vote in progress"
+WeaponLockButton.Caption="Lock Weapons"
+WeaponLockButton.Hint="Locks/Unlocks dropped weapons, so they can not be picked up by other players"
+WeaponsBG.Caption="Weapons"
+ZedsButton.Caption="Zeds"
+ZedsButton.Hint="Prints current monster collection"
+
+[ScrnThompsonDrum]
+ItemName="RS Tommy Gun SE"
+
+[ScrnThompsonDrumPickup]
+ItemName="RS Tommy Gun SE"
+ItemShortName="RS Tommy Gun SE"
+PickupMessage="You got the RS Thompson with Drum Mag"
+
+[ScrnThompsonInc]
+ItemName="Incendiary Tommy Gun SE"
+
+[ScrnThompsonIncAmmo]
+ItemName="45. ACP Incendiary bullets"
+
+[ScrnThompsonIncAmmoPickup]
+PickupMessage="Rounds 45. ACP Inc."
+
+[ScrnThompsonIncPickup]
+ItemName="Tommy Gun Incendiary SE"
+ItemShortName="Tommy Gun Inc. SE"
+PickupMessage="You got the Incendiary Tommy Gun"
+
+[ScrnTrenchgun]
+ItemName="Dragon's Breath Trenchgun SE"
+
+[ScrnTrenchgunPickup]
+ItemName="Trenchgun SE"
+ItemShortName="Trenchgun SE"
+
+[ScrnVestPickup]
+ItemName="Vest"
+ItemShortName="Vest"
+PickupMessage="You got a Vest"
+
+[ScrnVetBerserker]
+CustomLevelInfo="*** BONUS LEVEL %L|%s extra melee damage|%m faster melee attacks|30% faster melee movement|80% less damage from Bloat Bile|40% resistance to all damage|%d discount on Melee Weapons|Spawn with a Chainsaw|Can't be grabbed by Clots|Up to 4 Zed-Time Extensions"
+SRLevelEffects=("*** BONUS LEVEL 0|10% extra melee damage|5% faster melee movement|10% less damage from Bloat Bile|10% discount on Melee Weapons|Can't be grabbed by Clots","*** BONUS LEVEL 1|20% extra melee damage|5% faster melee attacks|10% faster melee movement|25% less damage from Bloat Bile|5% resistance to all damage|20% discount on Melee Weapons|Can't be grabbed by Clots","*** BONUS LEVEL 2|40% extra melee damage|10% faster melee attacks|15% faster melee movement|35% less damage from Bloat Bile|10% resistance to all damage|30% discount on Melee Weapons|Can't be grabbed by Clots|Zed-Time can be extended by killing an enemy while in slow motion","*** BONUS LEVEL 3|60% extra melee damage|10% faster melee attacks|20% faster melee movement|50% less damage from Bloat Bile|15% resistance to all damage|40% discount on Melee Weapons|Can't be grabbed by Clots|Up to 2 Zed-Time Extensions","*** BONUS LEVEL 4|80% extra melee damage|15% faster melee attacks|20% faster melee movement|65% less damage from Bloat Bile|20% resistance to all damage|50% discount on Melee Weapons|Can't be grabbed by Clots|Up to 3 Zed-Time Extensions","*** BONUS LEVEL 5|100% extra melee damage|20% faster melee attacks|20% faster melee movement|75% less damage from Bloat Bile|30% resistance to all damage|60% discount on Melee Weapons|Spawn with an Axe|Can't be grabbed by Clots|Up to 4 Zed-Time Extensions","*** BONUS LEVEL 6|100% extra melee damage|25% faster melee attacks|30% faster melee movement|80% less damage from Bloat Bile|40% resistance to all damage|70% discount on Melee Weapons|Spawn with a Chainsaw|Can't be grabbed by Clots|Up to 4 Zed-Time Extensions")
+VeterancyName="Berserker"
+Requirements[0]="Deal %x damage with melee weapons"
+
+[ScrnVetCommando]
+CustomLevelInfo="*** BONUS LEVEL %L|%s more damage with Assaut Rifles|%c less recoil with Assaut Rifles|25% larger Assaut Rifles clip|%a faster reload with Assaut Rifles|%r faster reload with all weapons|%d discount on Assaut Rifles|Can see cloaked Stalkers from %vm|Can see enemy health from 16m|Up to %z Zed-Time Extensions|Spawn with an AK47"
+SRLevelEffects=("*** BONUS LEVEL 0|5% more damage with Assaut Rifles|5% less recoil with Assaut Rifles|5% faster reload with all weapons|10% discount on Assaut Rifles|Can see cloaked Stalkers from 4 meters","*** BONUS LEVEL 1|10% more damage with Assaut Rifles|10% less recoil with Assaut Rifles|10% larger Assaut Rifles clip|10% faster reload with all weapons|20% discount on Assaut Rifles|Can see cloaked Stalkers from 8m|Can see enemy health from 4m","*** BONUS LEVEL 2|20% more damage with Assaut Rifles|15% less recoil with Assaut Rifles|20% larger Assaut Rifles clip|20% faster reload with Assaut Rifles|15% faster reload with all weapons|30% discount on Assaut Rifles|Can see cloaked Stalkers from 10m|Can see enemy health from 7m","*** BONUS LEVEL 3|30% more damage with Assaut Rifles|20% less recoil with Assaut Rifles|25% larger Assaut Rifles clip|30% faster reload with Assaut Rifles|20% faster reload with all weapons|40% discount on Assaut Rifles|Can see cloaked Stalkers from 12m|Can see enemy health from 10m|Zed-Time can be extended by killing an enemy while in slow motion","*** BONUS LEVEL 4|40% more damage with Assaut Rifles|30% less recoil with Assaut Rifles|25% larger Assaut Rifles clip|40% faster reload with Assaut Rifles|25% faster reload with all weapons|50% discount on Assaut Rifles|Can see cloaked Stalkers from 14m|Can see enemy health from 13m|Up to 2 Zed-Time Extensions","*** BONUS LEVEL 5|50% more damage with Assaut Rifles|30% less recoil with Assaut Rifles|25% larger Assaut Rifles clip|50% faster reload with Assaut Rifles|30% faster reload with all weapons|60% discount on Assaut Rifles|Can see cloaked Stalkers from 16m|Can see enemy health from 16m|Up to 3 Zed-Time Extensions|Spawn with a Bullpup","*** BONUS LEVEL 6|50% more damage with Assaut Rifles|40% less recoil with Assaut Rifles|25% larger Assaut Rifles clip|50% faster reload with Assaut Rifles|35% faster reload with all weapons|70% discount on Assaut Rifles|Can see cloaked Stalkers from 16m|Can see enemy health from 16m|Up to 4 Zed-Time Extensions|Spawn with an AK47")
+VeterancyName="Commando"
+Requirements[0]="Kill %x Stalkers/Shivers with Assault Rifles"
+Requirements[1]="Deal %x damage with Assault Rifles"
+
+[ScrnVetDemolitions]
+CustomLevelInfo="*** BONUS LEVEL %L|%s extra Explosives damage|%r resistance to Explosives|+%g Rocket, M203 and Hand Grenade capacity|Can carry %x Remote Explosives|%y discount on Explosives|%d off Remote Explosives|30% discount on Grenades and Rockets|Spawn with a M79"
+SRLevelEffects=("*** BONUS LEVEL 0|5% extra Explosives damage|25% resistance to Explosives|10% discount on Explosives|50% off Remote Explosives","*** BONUS LEVEL 1|10% extra Explosives damage|30% resistance to Explosives|+1 Rocket, M203 and Hand Grenade capacity|Can carry 3 Remote Explosives|20% discount on Explosives|54% off Remote Explosives and M79|5% discount on Grenades and Rockets","*** BONUS LEVEL 2|20% extra Explosives damage|35% resistance to Explosives|+2 Rocket, M203 and Hand Grenade capacity|Can carry 4 Remote Explosives|30% discount on Explosives|58% off Remote Explosives and M79|10% discount on Grenades and Rockets","*** BONUS LEVEL 3|30% extra Explosives damage|40% resistance to Explosives|+3 Rocket, M203 and Hand Grenade capacity|Can carry 5 Remote Explosives|40% discount on Explosives|62% off Remote Explosives and M79|15% discount on Grenades and Rockets","*** BONUS LEVEL 4|40% extra Explosives damage|45% resistance to Explosives|+4 Rocket, M203 and Hand Grenade capacity|Can carry 6 Remote Explosives|50% discount on Explosives|66% off Remote Explosives and M79|20% discount on Grenades and Rockets","*** BONUS LEVEL 5|50% extra Explosives damage|50% resistance to Explosives|+5 Rocket, M203 and Hand Grenade capacity|Can carry 7 Remote Explosives|60% discount on Explosives|70% off Remote Explosives|25% discount on Grenades and Rockets|Spawn with extra hand grenades","*** BONUS LEVEL 6|60% extra Explosives damage|55% resistance to Explosives|+6 Rocket, M203 and Hand Grenade capacity|Can carry 8 Remote Explosives|70% discount on Explosives|74% off Remote Explosives|30% discount on Grenades and Rockets|Spawn with a M79")
+VeterancyName="Demolitions"
+Requirements[0]="Deal %x damage with the Explosives"
+
+[ScrnVetFieldMedic]
+CustomLevelInfo="*** BONUS LEVEL %L|%s faster Syringe recharge|75% more potent medical injections|75% less damage from Bloat Bile|%m faster movement speed|100% larger Medic Gun clip|50% faster reload with MP5/MP7|%a better Body Armor|%d discount on Medic Guns and Armor|Spawn with Body Armor and MP7M"
+SRLevelEffects=("*** BONUS LEVEL 0|10% faster Syringe recharge|10% more potent medical injections|10% less damage from Bloat Bile|10% discount on Medic Guns and Armor","*** BONUS LEVEL 1|25% faster Syringe recharge|25% more potent medical injections|25% less damage from Bloat Bile|3% faster movement speed|20% larger Medic Gun clip|10% faster reload with MP5/MP7|10% better Body Armor|20% discount on Medic Guns and Armor","*** BONUS LEVEL 2|50% faster Syringe recharge|25% more potent medical injections|50% less damage from Bloat Bile|6% faster movement speed|40% larger Medic Gun clip|20% faster reload with MP5/MP7|20% better Body Armor|30% discount on Medic Guns and Armor","*** BONUS LEVEL 3|75% faster Syringe recharge|50% more potent medical injections|50% less damage from Bloat Bile|9% faster movement speed|60% larger Medic Gun clip|30% faster reload with MP5/MP7|30% better Body Armor|40% discount on Medic Guns and Armor","*** BONUS LEVEL 4|100% faster Syringe recharge|50% more potent medical injections|50% less damage from Bloat Bile|12% faster movement speed|80% larger Medic Gun clip|40% faster reload with MP5/MP7|40% better Body Armor|50% discount on Medic Guns and Armor","*** BONUS LEVEL 5|150% faster Syringe recharge|50% more potent medical injections|75% less damage from Bloat Bile|15% faster movement speed|100% larger Medic Gun clip|50% faster reload with MP5/MP7|50% better Body Armor|60% discount on Medic Guns and Armor|Spawn with Body Armor","*** BONUS LEVEL 6|200% faster Syringe recharge|75% more potent medical injections|75% less damage from Bloat Bile|18% faster movement speed|100% larger Medic Gun clip|50% faster reload with MP5/MP7|60% better Body Armor|70% discount on Medic Guns and Armor|Spawn with Body Armor and MP7M")
+VeterancyName="Field Medic"
+Requirements[0]="Heal %x HP on your teammates"
+
+[ScrnVetFirebug]
+CustomLevelInfo="*** BONUS LEVEL %L|%s extra flame weapon damage|%m faster fire weapon reload|%m faster Husk Gun charging|%s more flame weapon ammo|100% resistance to fire|100% extra Flamethrower range|Grenades set enemies on fire|%d discount on flame weapons|Spawn with a Flamethrower"
+SRLevelEffects=("*** BONUS LEVEL 0|5% extra flame weapon damage|50% resistance to fire|10% discount on the flame weapons","*** BONUS LEVEL 1|10% extra flame weapon damage|10% faster fire weapon reload|10% faster Husk Gun charging|10% more flame weapon ammo|60% resistance to fire|20% discount on flame weapons","*** BONUS LEVEL 2|20% extra flame weapon damage|20% faster fire weapon reload|20% faster Husk Gun charging|20% more flame weapon ammo|70% resistance to fire|30% discount on flame weapons","*** BONUS LEVEL 3|30% extra flame weapon damage|30% faster fire weapon reload|30% faster Husk Gun charging|30% more flame weapon ammo|80% resistance to fire|50% extra Flamethrower range|Grenades set enemies on fire|40% discount on flame weapons","*** BONUS LEVEL 4|40% extra flame weapon damage|40% faster fire weapon reload|40% faster Husk Gun charging|40% more flame weapon ammo|90% resistance to fire|50% extra Flamethrower range|Grenades set enemies on fire|50% discount on flame weapons","*** BONUS LEVEL 5|50% extra flame weapon damage|50% faster fire weapon reload|50% faster Husk Gun charging|50% more flame weapon ammo|100% resistance to fire|100% extra Flamethrower range|Grenades set enemies on fire|60% discount on flame weapons|Spawn with a MAC10","*** BONUS LEVEL 6|60% extra flame weapon damage|60% faster fire weapon reload|60% faster Husk Gun charging|60% more flame weapon ammo|100% resistance to fire|100% extra Flamethrower range|Grenades set enemies on fire|70% discount on flame weapons|Spawn with a Flamethrower")
+VeterancyName="Firebug"
+Requirements[0]="Deal %x damage with the Flamethrower"
+
+[ScrnVetGunslinger]
+CustomLevelInfo="*** BONUS LEVEL %L|35% more damage with 9mm|%s more damage with HC/44/MK23|70% less recoil with Pistols|%r faster reload with Pistols|60% larger 9mm magazine|%d discount on HC/44/MK23|Spawn with Dual 44 Magnums||Cowboy Mode (holding Dual Pistols, light armor max):|35% extra reload with Dual Pistols|20% movement speed bonus|%f faster fire rate with 9mm"
+SRLevelEffects=("*** BONUS LEVEL 0|5% more damage with 9mm|10% less recoil with Pistols|30% faster reload with Pistols|10% discount on HC/44/MK23","*** BONUS LEVEL 1|10% more damage with 9mm|10% more damage with HC/44/MK23|20% less recoil with Pistols|35% faster reload with Pistols|20% larger 9mm magazine|20% discount on HC/44/MK23","*** BONUS LEVEL 2|15% more damage with 9mm|20% more damage with HC/44/MK23|30% less recoil with Pistols|40% faster reload with Pistols|20% larger 9mm magazine|30% discount on HC/44/MK23","*** BONUS LEVEL 3|20% more damage with 9mm|30% more damage with HC/44/MK23|40% less recoil with Pistols|45% faster reload with Pistols|40% larger 9mm magazine|40% discount on HC/44/MK23||Cowboy Mode (holding Dual Pistols, light armor max):|15% faster reload with Dual Pistols|5% movement speed bonus|","*** BONUS LEVEL 4|25% more damage with 9mm|40% more damage with HC/44/MK23|50% less recoil with Pistols|50% faster reload with Pistols|40% larger 9mm magazine|50% discount on HC/44/MK23||Cowboy Mode (holding Dual Pistols, light armor max):|25% extra reload with Dual Pistols|10% movement speed bonus|10% faster fire rate with 9mm","*** BONUS LEVEL 5|30% more damage with 9mm|50% more damage with HC/44/MK23|60% less recoil with Pistols|55% faster reload with Pistols|60% larger 9mm magazine|60% discount on HC/44/MK23|Spawn with Dual 9mm||Cowboy Mode (holding Dual Pistols, light armor max):|35% extra reload with Dual Pistols|15% movement speed bonus|20% faster fire rate with 9mm","*** BONUS LEVEL 6|35% more damage with 9mm|50% more damage with HC/44/MK23|70% less recoil with Pistols|60% faster reload with Pistols|60% larger 9mm magazine|70% discount on HC/44/MK23|Spawn with Dual 44 Magnums||Cowboy Mode (holding Dual Pistols, light armor max):|35% extra reload with Dual Pistols|20% movement speed bonus|30% faster fire rate with 9mm")
+VeterancyName="Gunslinger"
+Requirements[0]="Get %x kills with Pistols"
+Requirements[1]="Deal %x damage with Pistols"
+
+[ScrnVetSharpshooter]
+CustomLevelInfo="*** BONUS LEVEL %L|+%s Headshot dmg. with Sniper Rifles|+%p Headshot dmg. with Pistols|+50% Headshot damage with other weapons|75% less recoil with Pistols/Sniper Rifles|60% faster reload with Pistols/Sniper Rifles|%d discount on Pistols/Sniper Rifles|%a discount on Crossbow/M99 ammo|Spawn with a Crossbow"
+SRLevelEffects=("*** BONUS LEVEL 0|+10% Headshot dmg. with Pistols/Sniper Rifles|+5% Headshot damage with other weapons|10% discount on Pistols/Sniper Rifles","*** BONUS LEVEL 1|+21% Headshot dmg. with Pistols/Sniper Rifles|+10% Headshot damage with other weapons|25% less recoil with Pistols/Sniper Rifles|10% faster reload with Pistols/Sniper Rifles|20% discount on Pistols/Sniper Rifles|7% discount on Crossbow/M99 ammo","*** BONUS LEVEL 2|+38% Headshot dmg. with Pistols/Sniper Rifles|+20% Headshot damage with other weapons|50% less recoil with Pistols/Sniper Rifles|20% faster reload with Pistols/Sniper Rifles|30% discount on Pistols/Sniper Rifles|14% discount on Crossbow/M99 ammo","*** BONUS LEVEL 3|+56% Headshot dmg. with Pistols/Sniper Rifles|+30% Headshot damage with other weapons|75% less recoil with Pistols/Sniper Rifles|30% faster reload with Pistols/Sniper Rifles|40% discount on Pistols/Sniper Rifles|21% discount on Crossbow/M99 ammo","*** BONUS LEVEL 4|+82% Headshot dmg. with Pistols/Sniper Rifles|+40% Headshot damage with other weapons|75% less recoil with Pistols/Sniper Rifles|40% faster reload with Pistols/Sniper Rifles|50% discount on Pistols/Sniper Rifles|28% discount on Crossbow/M99 ammo","*** BONUS LEVEL 5|+125% Headshot dmg. with Pistols/Sniper Rifles|+50% Headshot damage with other weapons|75% less recoil with Pistols/Sniper Rifles|50% faster reload with Pistols/Sniper Rifles|60% discount on Pistols/Sniper Rifles|35% discount on Crossbow/M99 ammo|Spawn with a Lever Action Rifle","*** BONUS LEVEL 6|+140% Headshot dmg. with Pistols/Sniper Rifles|+50% Headshot damage with other weapons|75% less recoil with Pistols/Sniper Rifles|60% faster reload with Pistols/Sniper Rifles|70% discount on Pistols/Sniper Rifles|42% discount on Crossbow/M99 ammo|Spawn with a Crossbow")
+VeterancyName="Sharpshooter"
+Requirements[0]="Get %x headshot kills with Pistols/LAR/M14/Crossbow/M99"
+
+[ScrnVetSupportSpec]
+CustomLevelInfo="*** BONUS LEVEL %L|%s more damage with Shotguns|60% better Shotgun penetration|30% extra shotgun ammo|120% increase in grenade capacity|+%b blocks in carry weight|150% faster welding/unwelding|While holding Welder can see door healths from %wm|%d discount on Shotguns|Spawn with a Hunting Shotgun"
+SRLevelEffects=("*** BONUS LEVEL 0|10% more damage with Shotguns|5% better Shotgun penetration|10% faster welding/unwelding|While holding Welder can see door healths from 12m|10% discount on Shotguns","*** BONUS LEVEL 1|10% more damage with Shotguns|10% better Shotgun penetration|10% extra shotgun ammo|20% increase in grenade capacity|+2 blocks in carry weight|25% faster welding/unwelding|While holding Welder can see door healths from 15m|20% discount on Shotguns","*** BONUS LEVEL 2|20% more damage with Shotguns|20% better Shotgun penetration|20% extra shotgun ammo|40% increase in grenade capacity|+3 blocks in carry weight|50% faster welding/unwelding|While holding Welder can see door healths from 18m|30% discount on Shotguns","*** BONUS LEVEL 3|30% more damage with Shotguns|30% better Shotgun penetration|25% extra shotgun ammo|60% increase in grenade capacity|+4 blocks in carry weight|75% faster welding/unwelding|While holding Welder can see door healths from 21m|40% discount on Shotguns","*** BONUS LEVEL 4|40% more damage with Shotguns|40% better Shotgun penetration|25% extra shotgun ammo|80% increase in grenade capacity|+5 blocks in carry weight|100% faster welding/unwelding|While holding Welder can see door healths from 24m|50% discount on Shotguns","*** BONUS LEVEL 5|50% more damage with Shotguns|50% better Shotgun penetration|25% extra shotgun ammo|100% increase in grenade capacity|+8 blocks in carry weight|150% faster welding/unwelding|While holding Welder can see door healths from 27m|60% discount on Shotguns|Spawn with a Shotgun","*** BONUS LEVEL 6|60% more damage with Shotguns|60% better Shotgun penetration|30% extra shotgun ammo|120% increase in grenade capacity|+9 blocks in carry weight|150% faster welding/unwelding|While holding Welder can see door healths from 30m|70% discount on Shotguns|Spawn with a Hunting Shotgun")
+VeterancyName="Support Specialist"
+Requirements[0]="Weld %x door hitpoints"
+Requirements[1]="Deal %x damage with shotguns"
+
+[ScrnWinchester]
+ItemName="Lever Action Rifle SE"
+
+[ScrnWinchesterPickup]
+ItemName="Lever Action Rifle SE"
+ItemShortName="LAR SE"
+
+[ScrnZEDMKIIPickup]
+ItemName="Zed Eradication Device MKIISE"
+ItemShortName="ZED GUN MKIISE"
+
+[ScrnZEDMKIIWeapon]
+ItemName="ZED GUN MKIISE"
+
+[TSCSharedMessages]
+strEnemyShop="Can not trade in enemy shop!"
+
