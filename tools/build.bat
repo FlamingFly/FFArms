@@ -13,8 +13,23 @@ set PROJ_NAME=FFArms
 set SRC_DIR=\your-github-project-path\sources\FFArms
 set GAME_DIR=\your-steam-path\SteamApps\common\KillingFloor
 set BUILD_DIR=\some-path\FFArms-builds
+:: set POSTBUILD=TRUE
 
 :: ===== Script =====
+
+:: normalize postbuild variable
+if not %POSTBUILD% == TRUE set POSTBUILD=FALSE
+
+:: write out settings
+echo.
+call :write ---------- SETTINGS ----------
+call :write Project name:      %PROJ_NAME%
+call :write Source directory:  %SRC_DIR%
+call :write Game directory:    %GAME_DIR%
+call :write Builds directory:  %BUILD_DIR%
+call :write Run postbuild:     %POSTBUILD%
+call :write -------- END SETTINGS --------
+echo.
 
 :: get the dir, where this script resides
 set MY_DIR=%~dp0
@@ -27,16 +42,6 @@ set START_DIR=%cd%
 set TM=%TIME:~0,8%
 set TM=%TM::=-%
 set BUILD=%DATE%T%TM%
-
-:: write out settings
-echo.
-call :write ---------- SETTINGS ----------
-call :write Project name:      %PROJ_NAME%
-call :write Source directory:  %SRC_DIR%
-call :write Game directory:    %GAME_DIR%
-call :write Builds directory:  %BUILD_DIR%
-call :write -------- END SETTINGS --------
-echo.
 
 :: clear workspace
 call :write Clearing old files from game directory
@@ -64,18 +69,34 @@ call :write Running UCC make
 echo.
 UCC.exe make ini=build-%PROJ_NAME%.ini
 if errorlevel 1 (
-	echo.
-	call :write Build FAILED! Check output.
+	set STATUS=FAIL
 ) else (
-	echo.
-	call :write Build successful. Copying to builds directory
-	xcopy /I "%GAME_DIR%\System\%PROJ_NAME%.*" "%BUILD_DIR%\%BUILD%" >NUL
-	if errorlevel 1 goto :err
+	set STATUS=SUCCESS
 )
 :: remove the file that prevents you from connecting to other servers
 del steam_appid.txt
+
 :: cd back to start dir
 cd /d "%START_DIR%"
+
+:: process UCC status
+echo.
+if %STATUS% == SUCCESS (
+	if %POSTBUILD% == TRUE (
+		call :write Running postbuild ...
+		call :postbuild
+		call :write Postbuild complete
+	)
+	call :write Build successful. Copying to builds directory
+	if not exist "%BUILD_DIR%" (
+		mkdir "%BUILD_DIR%" >NUL
+	)
+	xcopy /I "%GAME_DIR%\System\%PROJ_NAME%.*" "%BUILD_DIR%\%BUILD%" >NUL
+	if errorlevel 1 goto :err
+	
+) else (
+	call :write Build FAILED! Check output.
+)
 
 :: pause to just in case the script is not run from cmd window
 echo.
@@ -95,4 +116,10 @@ echo %ECHO_WAS%
 
 :write
 echo [BUILD] %*
+exit /B 0
+
+:postbuild
+echo [POSTBUILD] Copying INI files to game directory.
+xcopy /I "%SRC_DIR%\*.ini" "%GAME_DIR%\System\" >NUL
+if errorlevel 1 goto :err
 exit /B 0
