@@ -1,4 +1,4 @@
-class FFA_W_DualMK23Weapon extends ScrnDualMK23Pistol;
+class FFA_W_DualDesertEagleWeapon extends ScrnDualDeagle;
 
 var class<KFWeapon> SingleWeaponClass;
 var class<KFWeaponPickup> SinglePickupClass;
@@ -59,9 +59,11 @@ function DropFrom(vector StartLocation)
 defaultproperties
 {
 	Weight=4.000000
-	FireModeClass(0)=Class'FFArms.FFA_W_DualMK23Fire'
-	SingleWeaponClass=Class'FFArms.FFA_W_MK23Weapon'
-	SinglePickupClass=Class'FFArms.FFA_W_MK23Pickup'
-	PickupClass=Class'FFArms.FFA_W_DualMK23Pickup'
-	ItemName="FFA Dual MK23"
+    MagCapacity=14
+    Description="FFA Dual Deser Eagle"
+    ItemName="FFA Dual Deser Eagle"
+    FireModeClass(0)=Class'FFArms.FFA_W_DualDesertEagleFire'
+	SingleWeaponClass=Class'FFArms.FFA_W_DualDesertEagleWeapon'
+	SinglePickupClass=Class'FFArms.FFA_W_DualDesertEaglePickup'
+    PickupClass=Class'FFArms.FFA_W_DualDesertEaglePickup'
 }

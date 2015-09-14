@@ -18,7 +18,7 @@ set BUILD_DIR=\some-path\FFArms-builds
 :: ===== Script =====
 
 :: normalize postbuild variable
-if not %POSTBUILD% == TRUE set POSTBUILD=FALSE
+if not _%POSTBUILD%_ == _TRUE_ set POSTBUILD=FALSE
 
 :: write out settings
 echo.
@@ -120,7 +120,7 @@ echo [BUILD] %*
 exit /B 0
 
 :postbuild
-echo [POSTBUILD] Copying INI files to game directory.
-xcopy /I "%SRC_DIR%\*.ini" "%GAME_DIR%\System\" >NUL
-if errorlevel 1 goto :err
+REM echo [POSTBUILD] Copying INI files to game dir
+REM xcopy /I "%SRC_DIR%\Classes\*.ini" "%GAME_DIR%\System\" >NUL
+REM if errorlevel 1 goto :err
 exit /B 0

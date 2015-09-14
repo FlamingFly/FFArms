@@ -1,4 +1,4 @@
-class FFA_W_MK23Fire extends ScrnMK23Fire;
+class FFA_W_DualDesertEagleFire extends ScrnDualDeagleFire;
 
 function DoTrace(Vector Start, Rotator Dir)
 {
@@ -139,6 +139,7 @@ defaultproperties
 {
 	PenDmgReduction=0.8
 	MaxPenetrations=1
-	DamageMax=28
-	DamageType=Class'FFArms.FFA_W_MK23DamType'
+    DamageType=Class'KFMod.DamTypeDualDeagle'
+    DamageMax=115
+    AmmoClass=Class'KFMod.DeagleAmmo'
 }

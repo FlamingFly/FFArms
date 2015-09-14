@@ -10,6 +10,5 @@ defaultproperties
 	FireModeClass(1)=Class'KFMod.NoFire'
 	Description="Five-seveN DESC"
 	PickupClass=Class'FFArms.FFA_W_FiveSevenPickup'
-	AttachmentClass=Class'FFArms.FFA_W_FiveSevenAttachment'
 	ItemName="FN Five-seveN"
 }

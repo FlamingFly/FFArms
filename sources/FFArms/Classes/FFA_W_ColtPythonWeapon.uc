@@ -6,6 +6,5 @@ defaultproperties
 	FireModeClass(0)=Class'FFArms.FFA_W_ColtPythonFire'
 	Description="Python DESC"
 	PickupClass=Class'FFArms.FFA_W_ColtPythonPickup'
-	AttachmentClass=Class'FFArms.FFA_W_ColtPythonAttachment'
 	ItemName="Colt Python"
 }

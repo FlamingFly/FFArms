@@ -1,4 +1,4 @@
-class FFA_W_DualMK23Weapon extends ScrnDualMK23Pistol;
+class FFA_W_DualSWModel29Weapon extends ScrnDual44Magnum;
 
 var class<KFWeapon> SingleWeaponClass;
 var class<KFWeaponPickup> SinglePickupClass;
@@ -59,9 +59,10 @@ function DropFrom(vector StartLocation)
 defaultproperties
 {
 	Weight=4.000000
-	FireModeClass(0)=Class'FFArms.FFA_W_DualMK23Fire'
-	SingleWeaponClass=Class'FFArms.FFA_W_MK23Weapon'
-	SinglePickupClass=Class'FFArms.FFA_W_MK23Pickup'
-	PickupClass=Class'FFArms.FFA_W_DualMK23Pickup'
-	ItemName="FFA Dual MK23"
+    Description="FFA Dual 44 Magnum Pistols. Make my day!"
+    ItemName="FFA Dual 44 Magnums"
+	FireModeClass(0)=Class'FFArms.FFA_W_DualSWModel29Fire'
+	SingleWeaponClass=Class'FFArms.FFA_W_SWModel29Weapon'
+	SinglePickupClass=Class'FFArms.FFA_W_SWModel29Pickup'
+    PickupClass=Class'FFArms.FFA_W_DualSWModel29Pickup'
 }
