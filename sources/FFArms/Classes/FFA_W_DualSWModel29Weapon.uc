@@ -59,8 +59,8 @@ function DropFrom(vector StartLocation)
 defaultproperties
 {
 	Weight=4.000000
-    Description="FFA Dual 44 Magnum Pistols. Make my day!"
-    ItemName="FFA Dual 44 Magnums"
+	Description="Dual S&W Model 29 ITEMDESC"
+	ItemName="Dual S&W Model 29"
 	FireModeClass(0)=Class'FFArms.FFA_W_DualSWModel29Fire'
 	SingleWeaponClass=Class'FFArms.FFA_W_SWModel29Weapon'
 	SinglePickupClass=Class'FFArms.FFA_W_SWModel29Pickup'

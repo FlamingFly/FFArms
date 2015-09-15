@@ -60,8 +60,8 @@ defaultproperties
 {
 	Weight=4.000000
     MagCapacity=14
-    Description="FFA Dual Desert Eagle"
-    ItemName="FFA Dual Desert Eagle"
+	Description="Dual Desert Eagle Beretta92FS ITEMDESC"
+    ItemName="Dual Desert Eagle"
     FireModeClass(0)=Class'FFArms.FFA_W_DualDesertEagleFire'
     PickupClass=Class'FFArms.FFA_W_DualDesertEaglePickup'
 	SingleWeaponClass=Class'FFArms.FFA_W_DesertEagleWeapon'

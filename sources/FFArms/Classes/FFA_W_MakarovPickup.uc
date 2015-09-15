@@ -72,11 +72,11 @@ defaultproperties
 	cost=100
 	AmmoCost=5
 	BuyClipSize=8
-	Description="FFA Makarov DESC"
-	ItemName="FFA Makarov"
-	ItemShortName="FFA Makarov"
-	AmmoItemName="Makarov Ammo"
-	PickupMessage="Picked up Makarov"
+	Description="Makarov PM DESC"
+	ItemName="Makarov PM"
+	ItemShortName="Makarov"
+	AmmoItemName="Mags for Makarov"
+	PickupMessage=""
 	InventoryType=Class'FFArms.FFA_W_MakarovWeapon'
 	DualInventoryType=Class'FFArms.FFA_W_DualMakarovWeapon'
 }

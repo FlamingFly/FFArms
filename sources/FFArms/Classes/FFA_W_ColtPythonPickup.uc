@@ -9,7 +9,7 @@ defaultproperties
 	Description="Colt Python DESC"
 	ItemName="Colt Python"
 	ItemShortName="Python"
-	AmmoItemName="Python Ammo"
+	AmmoItemName=".357Mag speedloaders"
+	PickupMessage=""
 	InventoryType=Class'FFArms.FFA_W_ColtPythonWeapon'
-	PickupMessage="You got the Colt Python handgun"
 }

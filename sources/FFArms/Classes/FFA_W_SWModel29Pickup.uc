@@ -6,8 +6,11 @@ defaultproperties
 	cost=450
 	AmmoCost=13
 	BuyClipSize=6
-	ItemName="FFA Smith & Wesson model 29"
-	ItemShortName="FFA S&W model 29"
+	Description="Smith and Wesson Model 29 DESC"
+	ItemName="S&W Model 29"
+	ItemShortName="Model29"
+	AmmoItemName=".44Mag speedloaders"
+	PickupMessage=""
 	InventoryType=Class'FFArms.FFA_W_SWModel29Weapon'
 	DualInventoryType=Class'FFArms.FFA_W_DualSWModel29Weapon'
 }

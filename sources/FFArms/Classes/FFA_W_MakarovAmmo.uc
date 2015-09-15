@@ -6,5 +6,5 @@ defaultproperties
 	MaxAmmo=216
 	InitialAmount=72
 	PickupClass=Class'FFArms.FFA_W_MakarovAmmoPickup'
-	ItemName="Makarov Ammo"
+	ItemName="Mags for Makarov"
 }

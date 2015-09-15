@@ -5,5 +5,5 @@ defaultproperties
 	AmmoPickupAmount=6
 	MaxAmmo=126
 	InitialAmount=42
-	ItemName="Python Ammo"
+	ItemName=".357Mag speedloaders"
 }

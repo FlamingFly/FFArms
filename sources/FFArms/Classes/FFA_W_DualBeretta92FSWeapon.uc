@@ -59,7 +59,8 @@ function DropFrom(vector StartLocation)
 defaultproperties
 {
 	Weight=2.000000
-    ItemName="FFA Dual Beretta92FS"
+	Description="Dual Beretta92FS ITEMDESC"
+    ItemName="Dual Beretta92FS"
 	FireModeClass(0)=Class'FFArms.FFA_W_DualBeretta92FSFire'
 	SingleWeaponClass=Class'FFArms.FFA_W_Beretta92FSWeapon'
 	SinglePickupClass=Class'FFArms.FFA_W_Beretta92FSPickup'

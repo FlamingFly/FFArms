@@ -6,8 +6,10 @@ defaultproperties
 	cost=900
 	AmmoCost=13
 	BuyClipSize=6
-	Description="A pair of 44 Magnum Pistols. Make my day!"
-	ItemName="FFA Dual 44 Magnums"
-	ItemShortName="FFA Dual 44s"
+	Description="Dual wielded Smith and Wesson Model 29 DESC"
+	ItemName="Dual S&W Model 29"
+	ItemShortName="Dual Model29"
+	AmmoItemName=".44Mag speedloaders"
+	PickupMessage=""
 	InventoryType=Class'FFArms.FFA_W_DualSWModel29Weapon'
 }

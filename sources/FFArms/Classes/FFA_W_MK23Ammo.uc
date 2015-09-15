@@ -6,4 +6,5 @@ defaultproperties
 	InitialAmount=48
 	AmmoPickupAmount=12
 	PickupClass=Class'FFArms.FFA_W_MK23AmmoPickup'
+	ItemName="Mags for MK23"
 }

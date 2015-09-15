@@ -6,7 +6,10 @@ defaultproperties
 	cost=500
 	AmmoCost=16
 	BuyClipSize=12
-	ItemName="FFA Dual MK23"
-	ItemShortName="FFA Dual MK23"
+	Description="Dual wielded HK MK23 DESC"
+	ItemName="Dual HK MK23"
+	ItemShortName="Dual MK23"
+	AmmoItemName="Mags for MK23"
+	PickupMessage=""
 	InventoryType=Class'FFArms.FFA_W_DualMK23Weapon'
 }

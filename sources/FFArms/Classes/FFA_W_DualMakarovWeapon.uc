@@ -59,8 +59,8 @@ function DropFrom(vector StartLocation)
 defaultproperties
 {
 	Weight=2.000000
-	ItemName="FFA Dual Makarov"
-	Description="FFA Dual Makarov DESC"
+	Description="Dual Makarov ITEMDESC"
+	ItemName="Dual Makarov"
 	FireModeClass(0)=Class'FFArms.FFA_W_DualMakarovFire'
 	PickupClass=Class'FFArms.FFA_W_DualMakarovPickup'
 	SingleWeaponClass=Class'FFArms.FFA_W_MakarovWeapon'

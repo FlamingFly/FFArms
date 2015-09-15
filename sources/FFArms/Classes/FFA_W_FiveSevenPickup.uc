@@ -6,10 +6,10 @@ defaultproperties
 	cost=200
 	AmmoCost=17
 	BuyClipSize=20
-	Description="Five-seveN DESC"
+	Description="FN Five-seveN DESC"
 	ItemName="FN Five-seveN"
 	ItemShortName="Five-seveN"
-	AmmoItemName="Five-seveN Ammo"
+	AmmoItemName="Mags for Five-seveN"
+	PickupMessage=""
 	InventoryType=Class'FFArms.FFA_W_FiveSevenWeapon'
-	PickupMessage="You got the FN Five-seveN"
 }

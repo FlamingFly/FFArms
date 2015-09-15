@@ -6,7 +6,10 @@ defaultproperties
 	cost=30
 	AmmoCost=8
 	BuyClipSize=15
-	ItemName="FFA Dual Beretta 92FS"
-	ItemShortName="FFA Dual Beretta 92FS"
+	Description="Dual wielded Beretta 92FS DESC"
+	ItemName="Dual Beretta 92FS"
+	ItemShortName="Dual Beretta"
+	AmmoItemName="Mags for Beretta92FS"
+	PickupMessage=""
 	InventoryType=Class'FFArms.FFA_W_DualBeretta92FSWeapon'
 }

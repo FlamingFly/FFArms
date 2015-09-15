@@ -6,5 +6,5 @@ defaultproperties
 	MaxAmmo=180
 	InitialAmount=60
 	PickupClass=Class'FFArms.FFA_W_FiveSevenAmmoPickup'
-	ItemName="Five-seveN Ammo"
+	ItemName="Mags for Five-seveN"
 }
