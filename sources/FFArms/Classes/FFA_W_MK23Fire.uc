@@ -139,7 +139,7 @@ defaultproperties
 {
 	PenDmgReduction=0.8
 	MaxPenetrations=1
-	DamageMax=28
+	DamageMax=37
 	DamageType=Class'FFArms.FFA_W_MK23DamType'
 	AmmoClass=Class'FFArms.FFA_W_MK23Ammo'
 }

@@ -142,7 +142,7 @@ defaultproperties
 {
 	PenDmgReduction=0.8
 	MaxPenetrations=1
-	DamageMax=40
+	DamageMax=53
 	DamageType=Class'FFArms.FFA_W_ColtPythonDamType'
 	AmmoClass=Class'FFArms.FFA_W_ColtPythonAmmo'
 }

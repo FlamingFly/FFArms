@@ -139,7 +139,7 @@ defaultproperties
 {
 	PenDmgReduction=0.8
 	MaxPenetrations=1
-    DamageMax=50
+    DamageMax=67
     DamageType=Class'FFArms.FFA_W_DualSWModel29DamType'
     AmmoClass=Class'FFArms.FFA_W_SWModel29Ammo'
 }

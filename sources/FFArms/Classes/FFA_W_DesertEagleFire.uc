@@ -139,6 +139,6 @@ defaultproperties
 {
 	PenDmgReduction=0.8
 	MaxPenetrations=2
-	DamageMax=68
+	DamageMax=90
 	DamageType=Class'FFArms.FFA_W_DesertEagleDamType'
 }
