@@ -3,7 +3,7 @@ class FFA_W_DualMakarovDamType extends DamTypePM
 
 defaultproperties
 {
-	bSniperWeapon=True
+	bSniperWeapon=False
 	WeaponClass=Class'FFarms.FFA_W_DualMakarovWeapon'
 	DeathString="%k killed %o (Dual Makarov)."
 }

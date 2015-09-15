@@ -62,8 +62,8 @@ defaultproperties
 	ItemName="FFA Dual Makarov"
 	Description="FFA Dual Makarov DESC"
 	FireModeClass(0)=Class'FFArms.FFA_W_DualMakarovFire'
+	PickupClass=Class'FFArms.FFA_W_DualMakarovPickup'
 	SingleWeaponClass=Class'FFArms.FFA_W_MakarovWeapon'
 	SinglePickupClass=Class'FFArms.FFA_W_MakarovPickup'
-	PickupClass=Class'FFArms.FFA_W_DualMakarovPickup'
 	SelectSound=Sound'KF_9MMSnd.9mm_Select'
 }

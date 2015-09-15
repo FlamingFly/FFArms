@@ -3,8 +3,8 @@ class FFA_W_ColtPythonPickup extends WColtPickup;
 defaultproperties
 {
 	Weight=1.000000
-	cost=500
-	AmmoCost=30
+	Cost=350
+	AmmoCost=7
 	BuyClipSize=6
 	Description="Colt Python DESC"
 	ItemName="Colt Python"

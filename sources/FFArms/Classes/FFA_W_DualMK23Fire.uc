@@ -141,4 +141,5 @@ defaultproperties
 	MaxPenetrations=1
 	DamageMax=28
 	DamageType=Class'FFArms.FFA_W_DualMK23DamType'
+	AmmoClass=Class'FFArms.FFA_W_MK23Ammo'
 }

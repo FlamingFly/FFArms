@@ -6,9 +6,8 @@ defaultproperties
 {
 	MagCapacity=20
 	Weight=1.000000
-	FireModeClass(0)=Class'FFArms.FFA_W_FiveSevenFire'
-	FireModeClass(1)=Class'KFMod.NoFire'
-	Description="Five-seveN DESC"
-	PickupClass=Class'FFArms.FFA_W_FiveSevenPickup'
 	ItemName="FN Five-seveN"
+	Description="Five-seveN DESC"
+	FireModeClass(0)=Class'FFArms.FFA_W_FiveSevenFire'
+	PickupClass=Class'FFArms.FFA_W_FiveSevenPickup'
 }

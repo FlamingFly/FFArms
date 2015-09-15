@@ -138,8 +138,8 @@ function DoTrace(Vector Start, Rotator Dir)
 defaultproperties
 {
 	PenDmgReduction=0.8
-	MaxPenetrations=1
-    DamageType=Class'KFMod.DamTypeDualDeagle'
-    DamageMax=115
-    AmmoClass=Class'KFMod.DeagleAmmo'
+	MaxPenetrations=2
+	DamageMax=68
+	DamageType=Class'FFArms.FFA_W_DualDesertEagleDamType'
+	AmmoClass=Class'FFArms.FFA_W_DesertEagleAmmo'
 }

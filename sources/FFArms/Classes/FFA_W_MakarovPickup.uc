@@ -69,8 +69,8 @@ function bool CheckCanCarry(KFHumanPawn Hm) {
 defaultproperties
 {
 	Weight=1.000000
-	cost=50
-	AmmoCost=10
+	cost=100
+	AmmoCost=5
 	BuyClipSize=8
 	Description="FFA Makarov DESC"
 	ItemName="FFA Makarov"

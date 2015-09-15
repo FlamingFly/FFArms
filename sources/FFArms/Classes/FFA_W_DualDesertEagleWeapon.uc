@@ -60,10 +60,10 @@ defaultproperties
 {
 	Weight=4.000000
     MagCapacity=14
-    Description="FFA Dual Deser Eagle"
-    ItemName="FFA Dual Deser Eagle"
+    Description="FFA Dual Desert Eagle"
+    ItemName="FFA Dual Desert Eagle"
     FireModeClass(0)=Class'FFArms.FFA_W_DualDesertEagleFire'
-	SingleWeaponClass=Class'FFArms.FFA_W_DualDesertEagleWeapon'
-	SinglePickupClass=Class'FFArms.FFA_W_DualDesertEaglePickup'
     PickupClass=Class'FFArms.FFA_W_DualDesertEaglePickup'
+	SingleWeaponClass=Class'FFArms.FFA_W_DesertEagleWeapon'
+	SinglePickupClass=Class'FFArms.FFA_W_DesertEaglePickup'
 }

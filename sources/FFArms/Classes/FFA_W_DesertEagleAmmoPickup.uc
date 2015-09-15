@@ -2,6 +2,6 @@ class FFA_W_DesertEagleAmmoPickup extends DeagleAmmoPickup;
 
 defaultproperties
 {
-	AmmoAmount=10
-	InventoryType=Class'KFMod.DeagleAmmo'
+	AmmoAmount=7
+	InventoryType=Class'FFArms.FFA_W_DesertEagleAmmo'
 }

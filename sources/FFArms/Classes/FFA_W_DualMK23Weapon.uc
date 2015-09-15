@@ -59,9 +59,9 @@ function DropFrom(vector StartLocation)
 defaultproperties
 {
 	Weight=4.000000
+	ItemName="FFA Dual MK23"
 	FireModeClass(0)=Class'FFArms.FFA_W_DualMK23Fire'
+	PickupClass=Class'FFArms.FFA_W_DualMK23Pickup'
 	SingleWeaponClass=Class'FFArms.FFA_W_MK23Weapon'
 	SinglePickupClass=Class'FFArms.FFA_W_MK23Pickup'
-	PickupClass=Class'FFArms.FFA_W_DualMK23Pickup'
-	ItemName="FFA Dual MK23"
 }

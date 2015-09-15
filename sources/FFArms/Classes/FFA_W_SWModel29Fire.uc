@@ -141,4 +141,5 @@ defaultproperties
 	MaxPenetrations=1
 	DamageMax=50
 	DamageType=Class'FFArms.FFA_W_SWModel29DamType'
+    AmmoClass=Class'FFArms.FFA_W_SWModel29Ammo'
 }
