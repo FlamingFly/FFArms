@@ -8,7 +8,7 @@ defaultproperties
 	BuyClipSize=15
 	Description="Dual wielded Beretta 92FS DESC"
 	ItemName="Dual Beretta 92FS"
-	ItemShortName="Dual Beretta"
+	ItemShortName="Dual Beretta 92FS"
 	AmmoItemName="Mags for Beretta92FS"
 	PickupMessage=""
 	InventoryType=Class'FFArms.FFA_W_DualBeretta92FSWeapon'

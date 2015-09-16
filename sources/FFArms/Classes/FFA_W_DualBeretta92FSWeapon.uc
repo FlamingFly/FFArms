@@ -1,6 +1,5 @@
 class FFA_W_DualBeretta92FSWeapon extends ScrnDualies;
 
-var class<KFWeapon> SingleWeaponClass;
 var class<KFWeaponPickup> SinglePickupClass;
 
 function DropFrom(vector StartLocation)
@@ -29,7 +28,7 @@ function DropFrom(vector StartLocation)
 	{
 		OtherAmmo = AmmoThrown / 2;
 		AmmoThrown -= OtherAmmo;
-		SinglePistol = Spawn(SingleWeaponClass);
+		SinglePistol = KFWeapon(Spawn(DemoReplacement));
 		SinglePistol.SellValue = SellValue / 2;
 		SinglePistol.GiveTo(Instigator);
 		SinglePistol.Ammo[0].AmmoAmount = OtherAmmo;
@@ -56,13 +55,39 @@ function DropFrom(vector StartLocation)
 	Destroy();
 }
 
+simulated function bool PutDown()
+{
+	if ( Instigator.PendingWeapon == none || Instigator.PendingWeapon.class == DemoReplacement )
+	{
+		bIsReloading = false;
+	}
+
+	return super.PutDown();
+}
+
+function bool HandlePickupQuery( pickup Item )
+{
+	if ( Item.InventoryType == DemoReplacement )
+	{
+		if( LastHasGunMsgTime < Level.TimeSeconds && PlayerController(Instigator.Controller) != none )
+		{
+			LastHasGunMsgTime = Level.TimeSeconds + 0.5;
+			PlayerController(Instigator.Controller).ReceiveLocalizedMessage(Class'KFMainMessages', 1);
+		}
+
+		return True;
+	}
+
+	return Super.HandlePickupQuery(Item);
+}
+
 defaultproperties
 {
 	Weight=2.000000
 	Description="Dual Beretta92FS ITEMDESC"
     ItemName="Dual Beretta92FS"
 	FireModeClass(0)=Class'FFArms.FFA_W_DualBeretta92FSFire'
-	SingleWeaponClass=Class'FFArms.FFA_W_Beretta92FSWeapon'
-	SinglePickupClass=Class'FFArms.FFA_W_Beretta92FSPickup'
     PickupClass=Class'FFArms.FFA_W_DualBeretta92FSPickup'
+	DemoReplacement=Class'FFArms.FFA_W_Beretta92FSWeapon'
+	SinglePickupClass=Class'FFArms.FFA_W_Beretta92FSPickup'
 }
