@@ -8,7 +8,7 @@ defaultproperties
 	BuyClipSize=6
 	Description="Colt Python DESC"
 	ItemName="Colt Python"
-	ItemShortName="Python"
+	ItemShortName="Colt Python"
 	AmmoItemName=".357Mag speedloaders"
 	PickupMessage=""
 	InventoryType=Class'FFArms.FFA_W_ColtPythonWeapon'

@@ -8,7 +8,7 @@ defaultproperties
 	BuyClipSize=15
 	Description="Beretta 92FS DESC"
 	ItemName="Beretta 92FS"
-	ItemShortName="Beretta"
+	ItemShortName="Beretta 92FS"
 	AmmoItemName="Mags for Beretta92FS"
 	PickupMessage=""
 	InventoryType=Class'FFArms.FFA_W_Beretta92FSWeapon'

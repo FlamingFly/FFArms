@@ -8,7 +8,7 @@ defaultproperties
 	BuyClipSize=12
 	Description="HK MK23 DESC"
 	ItemName="HK MK23"
-	ItemShortName="MK23"
+	ItemShortName="HK MK23"
 	AmmoItemName="Mags for MK23"
 	PickupMessage=""
 	InventoryType=Class'FFArms.FFA_W_MK23Weapon'
